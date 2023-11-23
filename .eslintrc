@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    // 0 or "off" - turns the rule off
+    // 1 or "warn" - turns the rule on but won't make the linter fail
+    // 2 or "error" - turns the rule on and will make the linter fail
+    "prettier/prettier": [
+      2,
+      {
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 140,
+        "endOfLine": "auto" // https://prettier.io/docs/en/options.html#end-of-line
+      }
+    ]
+  }
+}
