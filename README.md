@@ -1,4 +1,4 @@
-# Base API
+# API chats
 
 ## Clone, install and run app
 

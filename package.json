@@ -1,7 +1,7 @@
 {
   "name": "api-chats",
   "version": "1.0.0",
-  "description": "Base API",
+  "description": "API chats",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
