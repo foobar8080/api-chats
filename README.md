@@ -33,6 +33,6 @@ Before you begin, ensure you have Node.js installed (version 16.15.1).
 
 ## Important
 
-- [App development rules](https://github.com/foobar8080/api-chats/tree/master/.app/development-rules)
-- [App docs](https://github.com/foobar8080/api-chats/tree/master/.app/docs) 
-- [TO-DO list](https://github.com/foobar8080/api-chats/tree/master/.app/to-do) 
+- [App development rules](https://github.com/foobar8080/api-chats/tree/develop/.app/development-rules)
+- [App docs](https://github.com/foobar8080/api-chats/tree/develop/.app/docs) 
+- [TO-DO list](https://github.com/foobar8080/api-chats/tree/develop/.app/to-do) 
