@@ -4,8 +4,6 @@ import { ERROR } from './error-list';
 import { HTTP_STATUS } from './http-status.constant';
 import { IHttpStatus, IAppError } from './exception.interface';
 
-const API_NAME: string = process.env.API_NAME?.trim() || '';
-
 export class ExceptionHandler {
   /**
    * Not found page handler:
@@ -26,6 +24,8 @@ export class ExceptionHandler {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   static handleError: ErrorRequestHandler<Error | HttpError> = (err, req, res, next): Response<IAppError> => {
     console.log(err);
+
+    const API_NAME: string = process.env.API_NAME?.trim() || '';
 
     const internalServerError: IHttpStatus = HTTP_STATUS.INTERNAL_SERVER_ERROR;
 
